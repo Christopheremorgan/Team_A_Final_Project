@@ -1,21 +1,13 @@
-# Team_A_Final_Project
+# Emoji the Possibilies
+A facial expression recognition CNN model with emoji labeling.
 
-# Team_Members
-<<<<<<< HEAD
+# Team Sweet Emojis
 - Chris Morgan
 - Gregory Morales
 - Naomi Shields
 - Regina Negrycz
 
-# Content 
 
-## Selected Topic
-
-Learning facial expressions from an image.
-
-## Reason Topic Selected
-
-We are interested in working with the Machine Learning algorithm Convolutional Neural Network to classify images of facial recognition. 
 
 ## Description of the data source
 
@@ -23,39 +15,10 @@ Dataset FER-2013 is a Kaggle dataset consisting of 48x48 pixel grayscale images 
 
 The task is to categorize each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The training set consists of 28,709 examples and the public test set consists of 3,589 examples.
 
-## Question
-
-By uploading images of facial expressions, can we accurately predict the facial expression?
-
-# Communication Protocols
-
-We will be using Zoom for scheduled class times as well as meetings outside of class, our Group-A Slack channel, and GitHub.
-
-# Project Segment 2
-
-Transform the database into a working model, refine the ML model, perform analysis and crate visuals for story as well as begin dashboard.
-
-# Project Segment 3
-
-Finalize database and ML models, create draft presentation and create the dashboard.
-
-# Project Segment 4
-
-Final updates to README.md and final touches on presentation and dashboard.  Practice presentation.
 
 # Technologies
+https://github.com/genlgist/Team_A_Final_Project/blob/ChrisAdd/FinalProjectTechDiagram%202021-0905.001.jpeg
 
-# Data Cleaning and Analysis
-
-Leverage Python, Tensorflow, and Keras to preprocess images (e.g. sizing, normalizing, encoding) to improve model classification efficacy.
-
-# Database Storage
-
-Leveraging AWS S3 bucket to store Kaggle images for training and testing. Consider adding a S3 bucket to keep history of new images uploaded for classification along with key model outputs for future development.
-
-# Machine Learning
-
-Tensorflow will be used to build a convolutional neural network (CNN) classification model that will be used to classify expressions of uploaded black and white headshots. Google Colab was used to code the model and import all necessary python libraries.
 
 # Dashboard
 
@@ -73,29 +36,8 @@ v2.1 Zoom 'self-awareness' plug-in that captures camera feed at a set frequency 
 
 v3.1 Zoom plug-in to provide people with autism a support tool that monitors the expressions of others on the Zoom call. Would include an expanded set of expressions that may be particularly helpful for people with autism.
 
-# ML Tech Diagram
-
-https://github.com/genlgist/Team_A_Final_Project/blob/ChrisAdd/FinalProjectTechDiagram%202021-0905.001.jpeg
-
-# Database Diagram
-
-https://github.com/genlgist/Team_A_Final_Project/blob/GregAdd/Resource/images/Facial%20Recognition%20-%20Flowchart.png
 
 
 
-=======
-Chris Morgan
-Gregory Morales
-Naomi Shields
-Regina Negrycz
 
-# Question
-By uploading images of facial expressions, can we accurately predict the facial expression?
 
-# Technologies
-Database - SQL vs AWS?
-Python
-TensorFlow - more than one hidden layer
-no preprocessing - images are already classified into 7 groups
-dashboard - Bootstrap with JS? 
->>>>>>> main
