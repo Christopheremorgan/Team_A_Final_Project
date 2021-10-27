@@ -8,16 +8,8 @@ A facial expression recognition CNN model with emoji labeling.
 - Regina Negrycz
 
 
-
-## Description of the data source
-
-Dataset FER-2013 is a Kaggle dataset consisting of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image.
-
-The task is to categorize each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The training set consists of 28,709 examples and the public test set consists of 3,589 examples.
-
-
-# Technologies
-https://github.com/genlgist/Team_A_Final_Project/blob/ChrisAdd/FinalProjectTechDiagram%202021-0905.001.jpeg
+# Application Technology Diagram
+![image_name](https://github.com/genlgist/Team_A_Final_Project/blob/ChrisAdd/TeamProjectTechDiagram.001.jpeg)
 
 
 # Dashboard
@@ -25,6 +17,14 @@ https://github.com/genlgist/Team_A_Final_Project/blob/ChrisAdd/FinalProjectTechD
 FINAL DELIVERABLE - v1.0: User uploads a black and white head shot to the dashboard which sets off an event for the image to be processed by a convolutional neural network model that classifies the expression on the headshot. The identified classification will be presented to the user along with the model's confidence level of the prediction.
 
 Bootstrap, HTML, and Javascript will be used to build the front end user interface (dashboard) with the ability to upload (with event listener) a black and white image for the classification model. Leverage Flask as the integration layer between the python model and the Javascript front end. Team is considering the option to include top 3 possible expression classifications sorted by model confidence level.
+
+
+## Description of the data source
+
+Dataset FER-2013 is a Kaggle dataset consisting of 48x48 pixel grayscale images of faces. The faces have been automatically registered so that the face is more or less centered and occupies about the same amount of space in each image.
+
+The task is to categorize each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The training set consists of 28,709 examples and the public test set consists of 3,589 examples.
+
 
 # Future Development
 
